@@ -4,18 +4,21 @@
   font-weight: normal;
   font-style: normals;
 }
-$button-coler:#00d0ff;
+$button-coler: #00d0ff;
 body {
   background-color: #f4f1e1;
   box-sizing: border-box;
   margin: 0%;
-  padding: 10px 40px;
+  
 
   //  ---------------- header sectione
   header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 40px;
+    border-radius: 20px;
     // ------------- logo div
     div#Logo {
       img {
@@ -25,15 +28,15 @@ body {
 
     // -----------------list
     div#list {
-    }
-    ul {
-      display: flex;
-      align-items: center;
-      a {
-        text-decoration: none;
+      ul {
+        display: flex;
+        align-items: center;
+        a {
+          text-decoration: none;
 
-        li {display: flex;
-           justify-content: center; 
+          li {
+            display: flex;
+            justify-content: center;
             width: 100px;
             height: 30px;
             list-style: none;
@@ -41,24 +44,51 @@ body {
             font-family: "BYekan", sans-serif;
             font-size: 20px;
             color: #702c00;
-            border-bottom: 2px solid #f4f1e1;
+
             padding: 10px;
             border-radius: 20px;
             position: relative;
-            overflow: hidden;  
-            background: linear-gradient(to right, $button-coler, #f4f1e1);  
-            background-size: 200% 100%; 
+            overflow: hidden;
+            background: linear-gradient(to right, $button-coler, #f4f1e1);
+            background-size: 200% 100%;
             background-position: right bottom;
-            transition: background-position 0.5s ease; 
+            transition: background-position 0.5s ease;
           }
-          
+
           li:hover {
             background-position: left bottom;
             color: black;
-     
           }
-          
+        }
       }
+    }
+    //    ------------------------------btn-start
+    div#btn-start {
+      display: flex;
+      justify-content: center;
+      width: 100px;
+      font-size: 11px;
+      border-radius: 20px;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(to right, $button-coler, #f4f1e1);
+      background-size: 200% 100%;
+      background-position: right bottom;
+      transition: background-position 0.5s ease;
+      padding: 10px 10px;
+      a {
+        text-decoration: none;
+        h1 {
+          margin: 0%;
+          color: #702c00;
+        }
+      }
+    }
+    #btn-start:hover {
+      background-position: left bottom;
+    h1{
+        color: black;
+    }
     }
   }
 }
