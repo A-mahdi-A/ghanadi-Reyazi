@@ -1,0 +1,40 @@
+body {
+  section#start-info {
+    
+    padding: 60px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div#Logomotione {
+        background: linear-gradient(45deg, 
+          #FF0000, 
+          #FF7F00, 
+          #FFFF00, 
+          #00FF00, 
+          #0a74ff, 
+          #4B0082, 
+          #8B00FF 
+        );
+        background-size: 400% 400%; 
+        animation: gradientAnimation 10s ease infinite;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      
+  }
+}

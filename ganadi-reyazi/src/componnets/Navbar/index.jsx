@@ -7,7 +7,7 @@ function Navbar() {
       <header>
         {/* --------------Button start-------- */}
         <div id="btn-start">
-          <Link><h1>بزن بریم</h1></Link>
+          <Link><h1>بزن بریـــــم</h1></Link>
         </div>
         {/* -----------list ----------- */}
         <div id="list">
