@@ -1,2 +1,15 @@
+@font-face {
+    font-family: "BYekan";
+    src: url("./assets/foonts/BYekan/BYekan+.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normals;
+  }
+  @font-face {
+  font-family: "BYekanB";
+  src: url("./assets/foonts/BYekan/BYekan+\ Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normals;
+}
+
 @import url(../src/styles/Navbar.scss);
 @import url(../src/styles/SectioneOneHomePage.scss);
