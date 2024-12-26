@@ -5,10 +5,12 @@ function Navbar() {
   return (
     <>
       <header>
-        {/* --------------Button start-------- */}
-        <div id="btn-start">
-          <Link><h1>بزن بریـــــم</h1></Link>
-        </div>
+          {/* ----------Logo */}
+          <div id="Logo">
+          <Link to="/">
+            <img src={Logo} alt="" />
+          </Link>
+          </div>
         {/* -----------list ----------- */}
         <div id="list">
           {" "}
@@ -30,12 +32,11 @@ function Navbar() {
             
           </ul>
         </div>
-        {/* ----------Logo */}
-        <div id="Logo">
-          <Link to="/">
-            <img src={Logo} alt="" />
-          </Link>
+             {/* --------------Button start-------- */}
+        <div id="btn-start">
+          <Link><h1>بزن بریـــــم</h1></Link>
         </div>
+      
       </header>
     </>
   );

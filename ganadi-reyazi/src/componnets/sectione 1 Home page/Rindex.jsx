@@ -8,12 +8,13 @@ function Rside() {
       <div id="RsideDIV">
         {/* titel */}
         <div id="titel">
-          <div>
-            <img src={chacklet} alt="" />
-          </div>
-          <div>
+        
             <h1>شیرین تر از شکلات</h1>
-          </div>
+          
+        
+            <img src={chacklet} alt="" />
+          
+        
         </div>
 
         {/* text */}

@@ -5,8 +5,9 @@ import Rside from "./Rindex";
 function SectioneOneHome() {
   return (
     <section id="start-info">
+        <Rside />
       <Leftside />
-      <Rside />
+    
     </section>
   );
 }
