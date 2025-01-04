@@ -7,7 +7,7 @@ import LernsSectione from '../componnets/Lern Home Page/LernsSectione'
 
 function Home() {
   return (
-    <div dir="rtl">
+    <div dir="rtl" lang='fa'>
       <Navbar/>
     <SectioneOneHome/>
     <LernsSectione/>
