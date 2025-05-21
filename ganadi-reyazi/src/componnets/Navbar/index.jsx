@@ -16,7 +16,7 @@ function Navbar() {
           {" "}
           <ul>
           <Link>
-              <li>درباره ما</li>
+              <li id="l">درباره ما</li>
             </Link>
          
             <Link>

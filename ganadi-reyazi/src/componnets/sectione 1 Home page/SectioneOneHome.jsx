@@ -4,9 +4,10 @@ import Rside from "./Rindex";
 
 function SectioneOneHome() {
   return (
-    <section id="start-info">
+    <section lang="FA" id="start-info">
+        <Leftside />
         <Rside />
-      <Leftside />
+    
     
     </section>
   );

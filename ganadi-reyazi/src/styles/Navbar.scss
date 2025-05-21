@@ -1,10 +1,8 @@
-
 $button-coler: #00d0ff;
 body {
   background-color: #f4f1e1;
   box-sizing: border-box;
   margin: 0%;
-  
 
   //  ---------------- header sectione
   header {
@@ -63,7 +61,7 @@ body {
       justify-content: center;
       width: 100px;
       font-size: 11px;
-      font-family: 'Byekan', sans-serif;
+      font-family: "Byekan", sans-serif;
       border-radius: 20px;
       position: relative;
       overflow: hidden;
@@ -73,16 +71,16 @@ body {
       padding: 10px 10px;
       animation: backgroundMove 2s infinite alternate;
     }
-    
+
     div#btn-start a {
       text-decoration: none;
     }
-    
+
     div#btn-start h1 {
       margin: 0%;
       color: #702c00;
     }
-    
+
     @keyframes backgroundMove {
       0% {
         background-position: right bottom;
@@ -91,9 +89,33 @@ body {
         background-position: left bottom;
       }
     }
-    
-  
-    
-    
+  }
+  @media screen and (max-width: 700px) {
+    header {
+      padding: 0%;
+      div#Logo {
+        display: none;
+        background-color: #702c00;
+      }
+      div {
+        ul {
+          padding: 0%;
+          display: flex;
+          justify-content: space-between;
+          width: 160px;
+          padding-right: 20px;
+          a {
+          
+            width: 118px;
+            li#l {
+              display: none;
+            }
+          }
+        }
+      }
+      div#btn-start {
+        display: none;
+      }
+    }
   }
 }
